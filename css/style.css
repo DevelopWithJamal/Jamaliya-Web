@@ -1,0 +1,202 @@
+@import "../fonts/PositiveSystem/style.css";
+@import "../fonts/Fira_Code/fira_code.css";
+
+body{
+	border: 1px solid rgb(19, 217, 19);
+}
+
+html
+{
+	color: white;
+	font-family: 'Fira Code';
+}
+
+body
+{
+	background-color: #1b1d23;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	font-size: 2vh;
+}
+
+#informations
+{
+	padding: 0 1em;
+}
+
+#informations .output
+{
+	color: white;
+	text-decoration: none;
+}
+
+#curriculum
+{
+	padding: 0 1em 3em 1em;
+}
+
+#curriculum ul
+{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+#curriculum li>*
+{
+	display: inline-block;
+}
+
+#footer
+{
+	user-select: none;
+	text-align: center;
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	font-size: 1vh;
+}
+
+#social>*
+{
+	margin: 1vh;
+	display: inline-block;
+}
+
+#social a
+{
+	color: white;
+}
+
+#social i
+{
+	font-size: 4vh;
+}
+
+.input
+{
+	display: none;
+}
+
+.input>*
+{
+	display: inline-block;
+}
+
+.input>h3
+{
+	margin: 0 0 0 0.5em;
+	font-size: 2vh;
+}
+
+.output:not(.output:empty)
+{
+	margin: 0 0 1em 0;
+}
+
+.output
+{
+	display: none;
+}
+
+.output>*
+{
+	display: inline-block;
+}
+
+.path,.dir
+{
+	color: #50cacd;
+}
+
+.exec
+{
+	color: #efa6a2;
+}
+
+.start_input
+{
+	color: #80c990;
+}
+
+#header
+{
+	text-align: center;
+	top: 0;
+	height: 100vh;	
+}
+
+#header #lock_screen
+{
+	user-select: none;
+	padding-top: 20vh;
+}
+
+#header img
+{
+	border: 0.5vh;
+	border-radius: 50%;	
+	border-color: white;
+	border-style: solid;
+	height: 30vh;
+}
+
+#header h1
+{
+	padding: 0;
+	margin: 0.5em 0 0.2em;
+}
+
+#header h2
+{
+	padding: 0;
+	margin: 0.5em 0;
+}
+
+#header h3
+{
+	padding: 0;
+	margin: 0 0 1em;
+}
+
+#header h4
+{
+	padding: 0;
+	margin: 0.5em;
+}
+
+#header #login
+{
+	background-color: #22181c;
+	border-width: 0.1vh;
+	border-color: gray;
+	color: white;
+	padding: 0;
+	font-size: 1.6vh;
+	height: 5vh;
+	width: 15vh;
+	font-family: 'Fira Code';
+	border-radius: 4px;
+	cursor: pointer;
+}
+ 
+#page
+{
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+ 
+}
+
+#page img
+{
+	font-size: 4vh;
+	height: 2vh;
+	margin: 0;
+	padding: 0;
+}
+.name
+{
+	color: rgb(0, 255, 0);
+}
